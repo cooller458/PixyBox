@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.26;
+  font-family: 'Inter', sans-serif;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+ol,
+ul,
+dl {
+  margin: 0;
+  list-style: none;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  padding: 0;
+  list-style: none;
+}
+
+
+/* icons Css  */
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: .2s ease all;
+  display: inline-block;
+}
+
+span.connect_chain_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("assets/img/icon/connect_chain.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: .2s ease all;
+  display: block;
+  cursor: pointer;
+}
+
+span.connect_chain_icon:hover {
+  background-image: url("assets/img/icon/connect_chain_db.svg");
+}
+
+.video_icon {
+  background-image: url("assets/img/icon/video.svg");
+}
+
+.tutorial_links:hover .video_icon {
+  background-image: url("assets/img/icon/video_da.svg");
+}
+
+
+.inf_icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("assets/img/icon/info.svg");
+}
+
+
+.tutorial_links:hover .inf_icon {
+  background-image: url("assets/img/icon/info_da.svg");
+}
+
+ /* Icon Css End  */
+
+body.dark_them {
+  color: #fff;
+  background: #22242F;
+}
+
+.bridge_select_contain {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.nft_title h1 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 116%;
+}
+
+.nft_title {
+  margin-bottom: 27px;
+}
+
+.bridge_connect {
+  border: 1px solid #62718A;
+  background: #252A36;
+  backdrop-filter: blur(42px);
+  border-radius: 16px;
+  margin-bottom: 26px;
+}
+
+.bridge_select {
+  display: flex;
+  align-items: center;
+  padding: 23px 17px 23px 24px;
+  cursor: pointer;
+}
+
+.bridge_select img.chain {
+  display: block;
+  margin-right: 16px;
+}
+
+img.arrow_down {
+  display: block;
+  margin-left: auto;
+}
+
+.bridge_select:hover img.arrow_down {
+  filter: brightness(100);
+}
+
+span.connec_chain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1px;
+  background:  #62718A;
+}
+
+.connect_bridge {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #297EFE, #297EFE);
+  border-radius: 16px;
+  height: 58px;
+  padding: 5px 15px;
+}
+
+.bridge_select_box {
+  max-width: 326px;
+  margin: 0 auto;
+}
+
+.connect_bridge_tutorial> a {margin: 10px 0;}
+
+.tutorial_links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial_links .icon {
+  margin-right: 7px;
+}
+
+.col-g {
+  color: #95A4BF;
+}
+
+.connect_bridge_tutorial {
+  padding-top: 10px;
+}

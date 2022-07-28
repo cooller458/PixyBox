@@ -1,0 +1,40 @@
+.disable {
+  display: flex;
+}
+.disable p {
+  font-size: 2vw;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mobilesvg {
+  background-color: white;
+  cursor: pointer;
+  width: 4vw;
+  margin: 0vh 2vw 0vh 0vw !important;
+}
+.mobileholder{
+  display: flex;
+}
+.mobileholder p {
+  font-size: 2vw;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.walletsvg {
+  background-color: white;
+  cursor: pointer;
+  width: 4vw;
+  margin: 0vh 2vw 4vh 0vw !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .disable {
+    display: none;
+    width: 0;
+  }
+  .mobilesvg {
+    width: 10vw;
+  }
+}

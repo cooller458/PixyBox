@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700;800&family=Roboto:wght@400;500&display=swap');
+
+/* 
+font-family: 'Orbitron', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+body {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+div#App {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1164px;
+}
+
+.customeNav.navbar {
+    padding: 40px 0 50px;
+    position: relative;
+    z-index: 999;
+}
+
+.customeNav .navbar-brand {
+    margin-right: auto;
+    padding: 0;
+    display: block;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+nav.customeNav  a.nav-link {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000 !important;
+}
+
+.socialList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.socialList li a {
+    display: block;
+    margin-left: 28px;
+}
+
+.banarCont {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banRight {
+    margin-left: auto;
+    width: 57.5%;
+    flex-shrink: 0;
+}
+
+.banRight img {
+    display: block;
+    max-width: 100%;
+}
+
+.banLeft h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.blackBtn {
+    display: inline-block;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #E9C739;
+    background: #040A35;
+    padding: 16px 82px;
+    transition: .3s ease all;
+    border: 2px solid #040A35;
+}
+
+.blackBtn:hover {
+    background: #E9C739;
+    color: #040A35;
+}
+
+.BlackArrow {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+
+.banLeft {
+    padding-bottom: 60px;
+}
+
+.sectMarg {
+    margin-bottom: 120px;
+}
+
+.sectPadd {
+    padding-bottom: 120px;
+}
+
+ul.aboutImgList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singAbouImg {
+    max-width: 20%;
+    flex-shrink: 0;
+    width: 20%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.singAbouImg img {
+    display: block;
+    max-width: 101%;
+}
+
+.sectiCont {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.roadMapImg img {
+    display: block;
+    width: 100%;
+}
+
+.roadMapCont {
+    text-align: center;
+    max-width: 752px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 25px 15px 17px;
+    margin-top: -148px;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+}
+
+.mapNum {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.roadMapCont h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.roadMapCont p {
+    max-width: 560px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.singleRoadmap {
+    margin-bottom: 30px;
+}
+
+.singleRoadmap:last-child {
+    margin-bottom: 0;
+}
+
+.mageCarImg img {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.hamesteCont.sectiCont {margin-top: 0;margin-bottom: 36px;}
+
+.cardCont h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.cardCont p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.hamesterCard {
+    margin-bottom: 35px;
+}
+
+.communiWall h2 {
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 46px;
+}
+
+.commuImg img {
+    display: block;
+    width: 100%;
+}
+
+.communiWall .commuImg img  {
+    margin-top: -3%;
+}
+
+.connectWallBtn .blackBtn {
+    padding: 16px 62px;
+}
+
+.connectWallBtn {
+    margin-top: 40px;
+}
+
+h2.text-left {
+    text-align: left;
+}
+
+.faqCont .accordion-item {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.faqCont .accordion-item h2.accordion-header {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.faqCont .accordion-item .accordion-button {
+    padding: 19px 20px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #000;
+    filter: invert(1) brightness(0);
+}
+
+.joinClubCont {
+    background: #000;
+    text-align: center;
+    padding: 44px 15px;
+}
+
+.joinClubCont h2 {
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #FFC700;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+
+.sectPad6 {
+    padding-bottom: 60px;
+}
+
+.sectMar6 {
+    margin-bottom: 60px;
+}
+
+.sectPad5 {
+    padding-bottom: 50px;
+}
+
+.teamSocial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -44px;
+    margin-bottom: 6px;
+}
+
+.teamSocial li a {
+    transition: .3s ease all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    padding: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+}
+
+.teamSocial li a:hover {
+    top: -3px;
+    box-shadow: 0 0 6px rgb(0 0 0 / 16%);
+}
+
+.sectPa1 {
+    padding-bottom: 100px;
+}
+
+.slideTitle h3 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.collectImg {
+    width: 100%;
+}
+
+.collecSlideCont {
+    margin-bottom: 30px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.slideItem {
+    padding: 0 12px;
+}
+
+.slick-dots {
+    position: unset;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 0 0 !important;
+    padding: 0 !important;
+}
+
+.slick-dots li {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    padding: 0 8px;
+}
+
+.slick-dots li button {
+    padding: 0;
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    background: #FFC700;
+    border-radius: 50%;
+    display: block;
+    transition: .3s ease all;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li.slick-active button, .slick-dots li button:hover {
+    background: #000000;
+}
+
+button.slick-arrow.slick-next {
+    right: 20px;
+    width: 20px;
+    height: 40px;
+    font-size: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -15px;
+}
+
+button.slick-arrow.slick-prev {
+    left: 20px;
+    width: 20px;
+    height: 40px;
+    font-size: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -15px;
+}
+
+.slick-prev:before {
+    content: url(../img/arrowLeft.svg);
+}
+
+.slick-next:before {
+    content: url(../img/arrowRioght.svg);
+}

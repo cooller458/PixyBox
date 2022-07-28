@@ -1,0 +1,209 @@
+
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/* Responsive */
+
+@media only screen and (max-width: 1199px) {
+
+    .banLeft h1 {
+        font-size: 52px;
+        line-height: 130%;
+    }
+
+    .blackBtn {
+        padding: 14px 52px;
+    }
+    
+    .connectWallBtn .blackBtn {
+        padding: 14px 42px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .sectPadd {
+        padding-bottom: 60px;
+    }
+
+    .sectMarg {
+        margin-bottom: 60px;
+    }
+
+    .sectPa1 {
+        padding-bottom: 50px;
+    }
+
+    .sectiCont {
+        margin-top: 30px;
+    }
+
+    .roadMapCont h3 {
+        font-size: 30px;
+    }
+
+    .slideTitle h3 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    
+}
+
+/* Medium Devices, Tablet, Mobile */    
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .joinClubCont h2 {
+        font-size: 36px;
+    }
+
+    .roadMapImg img {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .customeNav.navbar {
+        padding-top: 15px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        top: 100%;
+        margin-top: -40px;
+        background: #fff;
+        box-shadow: 1px 2px 10px rgb(0 0 0 / 16%);
+        border-radius: 6px;
+    }
+
+    .navbar-nav {
+        padding: 15px 0;
+        height: unset !important;
+        max-height: unset !important;
+    }
+
+    nav.customeNav a.nav-link {
+        margin-bottom: 12px;
+        padding: 10px 30px;
+    }
+
+    nav.customeNav a.nav-link:hover {
+        background: rgb(238 238 238 / 66%);
+    }
+
+    nav.customeNav a.nav-link:last-child {
+        margin: 0;
+    }
+
+}
+    
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+   
+}
+      
+@media only screen and (max-width: 767px) {
+
+    .customeNav .container> * {
+        order: 1;
+    }
+
+    .navbar-toggler {
+        order: 2 !important;
+        margin-left: 30px;
+    }
+
+
+    .banarCont {
+        flex-wrap: wrap;
+    }
+
+    .banarCont> div {
+        width: 100%;
+    }
+
+    .banRight img {
+        width: 100%;
+    }
+
+    .banLeft {
+        padding-bottom: 40px;
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .faqImg img {
+        width: 100%;
+    }
+   
+}
+       
+@media only screen and (max-width: 575px) {
+
+    .banLeft h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 135%;
+    }
+
+    .roadMapCont h3 {
+        font-size: 28px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+
+    .roadMapImg img {
+        height: 245px;
+    }
+
+    .roadMapCont {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .joinClubCont h2 {
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+
+    .slideTitle h3 {
+        font-size: 28px;
+    }
+
+}
+    
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	
+}    
+
+@media only screen and (max-width: 480px) {
+    button.slick-arrow.slick-next,
+    button.slick-arrow.slick-prev {
+        margin-top: -35px;
+        transform: scale(.7);
+    }
+        
+}
+      
+@media only screen and (max-width: 375px) {
+
+}
+   
